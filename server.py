@@ -26,7 +26,7 @@ class Generator(nn.Module):
 
 gen = Generator(z_dim)
 #torch.save(gen.state_dict(),"gerador.pth")
-gen.load_state_dict(torch.load("Geradores/gerador2016.pth",map_location=torch.device("cpu")))
+gen.load_state_dict(torch.load("Geradores/gerador2515.pth",map_location=torch.device("cpu")))
 gen.eval()
 
 
